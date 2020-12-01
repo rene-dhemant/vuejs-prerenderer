@@ -3,15 +3,15 @@
     div(class="topcontext")
       router-link(to="/").home__title
         | Vue.js Demo Store
-    
+
       div(class="snipcart-summary")
-        a(href="#" class="snipcart-checkout") 
+        a(href="#" class="snipcart-checkout")
           | view cart (
           span(class="snipcart-total-items") 0
           | )
 
     p(class="notice")
-      | Pre-rendering with Prerender SPA plugin, e-commerce with Snipcart
+      | Pre-Rendering with Vue.js Prerender SPA plugin, e-commerce with Snipcart
 
 </template>
 
@@ -32,7 +32,7 @@ export default {
       font-weight: bold;
       font-size: 25pt;
   }
-  
+
   .notice{
     font-style: italic;
     font-size: 18pt;
@@ -49,7 +49,7 @@ export default {
     float: none;
     margin-left: 90%;
   }
-  
+
   .home__title{
     text-decoration: none;
     color: white;
