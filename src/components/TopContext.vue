@@ -14,6 +14,7 @@
       | Pre-Rendering with Vue.js Prerender SPA plugin, e-commerce with Snipcart
 
     <h1 v-if="seen">Rene</h1>
+    <h1 v-show="seen">ReneShow</h1>
     <h1 v-else>buuuh</h1>
     <button :on-press="toggleSeen">Click to Toggle</button>
 
