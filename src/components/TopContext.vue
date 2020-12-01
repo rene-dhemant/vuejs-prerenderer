@@ -13,12 +13,27 @@
     p(class="notice")
       | Pre-Rendering with Vue.js Prerender SPA plugin, e-commerce with Snipcart
 
+    <span v-if="seen">Rene</span>
+    <button :on-press="toggleSeen">Click to Toggle</button>
+
 </template>
 
 <script>
 export default {
   name: 'TopContext'
 }
+</script>
+<script>
+export default {
+  data() {
+    return {
+      seen: false
+    };
+  },
+  toggleSeen() {
+    this.seen = !this.seen;
+  }
+};
 </script>
 
 <style>
