@@ -13,7 +13,8 @@
     p(class="notice")
       | Pre-Rendering with Vue.js Prerender SPA plugin, e-commerce with Snipcart
 
-    <span v-if="seen">Rene</span>
+    <h1 v-if="seen">Rene</h1>
+    <h1 v-else>buuuh</h1>
     <button :on-press="toggleSeen">Click to Toggle</button>
 
 </template>
